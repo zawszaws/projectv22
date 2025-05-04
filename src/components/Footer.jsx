@@ -22,17 +22,15 @@ export default function Footer() {
               Contact Us
             </Typography>
             <Typography variant="body2">
-              Email: info247@limecomms.gq<br />
+              Email: info247@limecomms.gq
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Typography variant="h6" gutterBottom>
-              Quick Links<br />
-              <Link href="https://setzweb.com/contact">Contact Us</Link>
+              Quick Links
             </Typography>
             <Link href="#" color="inherit" display="block" sx={{ mb: 1 }}>About Us</Link>
             <Link href="#" color="inherit" display="block" sx={{ mb: 1 }}>Products</Link>
-            <Link href="#" color="inherit" display="block" sx={{ mb: 1 }}>Specifications</Link>
           </Grid>
         </Grid>
         <Typography variant="body2" sx={{ mt: 4, textAlign: 'center' }}>
