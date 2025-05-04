@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev"    : "dotenvx run -f .env.production -- vite",
-    "build"  : "dotenvx run -f .env.production -- vite build",
+    "dev": "dotenvx run -f .env.production -- vite",
+    "build": "dotenvx run -f .env.production -- vite build",
     "preview": "dotenvx run -f .env.production -- vite preview",
-    "deploy" : "gh-pages -d dist --cname testa2.limecomms.gq"
+    "deploy": "gh-pages -d dist --cname testa2.limecomms.gq"
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.43.0",
@@ -28,6 +28,7 @@
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.0.10"
+    "vite": "^5.0.10",
+    "wrangler": "^4.14.1"
   }
 }

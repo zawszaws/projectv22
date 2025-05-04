@@ -69,7 +69,6 @@ export default function Navbar() {
               <MenuItem onClick={() => handleNavigate('/about')}>About</MenuItem>
               <MenuItem onClick={() => handleNavigate('/products')}>Products</MenuItem>
               <MenuItem onClick={() => handleNavigate('/specifications')}>Specifications</MenuItem>
-              <MenuItem onClick={() => handleNavigate('/contact')}>Contact</MenuItem>
             </Menu>
           </Box>
         </Toolbar>
