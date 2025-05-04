@@ -23,7 +23,6 @@ export default function Footer() {
             </Typography>
             <Typography variant="body2">
               Email: info247@limecomms.gq<br />
-              <Link href="https://setzweb.com/contact">Send us a message</Link>
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
@@ -34,7 +33,6 @@ export default function Footer() {
             <Link href="#" color="inherit" display="block" sx={{ mb: 1 }}>About Us</Link>
             <Link href="#" color="inherit" display="block" sx={{ mb: 1 }}>Products</Link>
             <Link href="#" color="inherit" display="block" sx={{ mb: 1 }}>Specifications</Link>
-            <Link href="#" color="inherit" display="block">Contact</Link>
           </Grid>
         </Grid>
         <Typography variant="body2" sx={{ mt: 4, textAlign: 'center' }}>
